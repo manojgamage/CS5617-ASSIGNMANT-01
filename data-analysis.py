@@ -9,8 +9,7 @@ import seaborn as sns #modern visualization
 sns.set_style("darkgrid")
 plt.rcParams['figure.figsize'] = (14, 8)
 
-file_path = 'C:\\Users\\INOVA\\Desktop\\Assignment\\'
-matches = pd.read_csv(file_path+'PSID.csv')
+matches = pd.read_csv('PSID.csv')
 
 print(matches)
 
